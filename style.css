@@ -19,7 +19,7 @@ body{
 }
 .wrapper{
     display: grid;
-    grid-template-columns:repeat(auto-fit,15rem);
+    grid-template-columns:repeat(auto-fit,minmax(15rem,20rem));
     gap: 1.5em;
     justify-content: center;
 }
@@ -33,11 +33,12 @@ body{
 }
 .elements{
     background-color: #D2D79F;
-    width: 15em;
+    /* width: 15em; */
     position: relative;
     box-shadow: #90B77D;
     border-radius: 15px;
     overflow: hidden;
+    margin: 0 1.5em;
 }
 .backdrop_drinks{
     background-image: url(img/drinks_small.jpg);
@@ -313,6 +314,118 @@ body{
     background-image: url(img/johnnie.jpg);
     height: 4em;
     background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_starters{
+    background-image: url(img/starter.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_main_courses{
+    background-image: url(img/main_course.jpg);
+    height: 4em;
+    background-position: 0 55%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_dessers{
+    background-image: url(img/dessert.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_salmon{
+    background-image: url(img/salmon.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_feta{
+    background-image: url(img/feta.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_gyoza{
+    background-image: url(img/gyoza.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_spring{
+    background-image: url(img/spring.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_halloumi{
+    background-image: url(img/halloumi.jpg);
+    height: 4em;
+    background-position: 0 40%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_burgir{
+    background-image: url(img/burger.jpg);
+    height: 4em;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_chicken{
+    background-image: url(img/chicken.jpg);
+    height: 4em;
+    background-position: 0 70%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_cherry{
+    background-image: url(img/cherry_chicken.jpg);
+    height: 4em;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_sandwich{
+    background-image: url(img/sandwich.jpg);
+    height: 4em;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_pork{
+    background-image: url(img/pork.jpg);
+    height: 4em;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_cheese{
+    background-image: url(img/cheesecake.jpg);
+    height: 4em;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_pancakes{
+    background-image: url(img/pork.jpg);
+    height: 4em;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.backdrop_waffle{
+    background-image: url(img/waffle.jpg);
+    height: 4em;
+    background-position: 0 60%;
     background-size: cover;
     background-repeat: no-repeat; 
 }
