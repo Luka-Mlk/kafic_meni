@@ -1,0 +1,83 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: #483838;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin-bottom: 2.5rem;
+}
+body{
+    background-color: #42855B;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,15rem);
+    gap: 1.5em;
+    justify-content: center;
+    padding-right: 1.3em;
+}
+.wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.elements p{
+    font-size: 1.5em;
+    padding: .2em .2em 0 1rem;
+}
+.elements{
+    background-color: #D2D79F;
+    width: 15em;
+    position: relative;
+    box-shadow: #90B77D;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.backdrop_drinks{
+    background-image: url(img/drinks_small.jpg);
+    height: 4em;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backdrop_food{
+    background-image: url(img/food_small.jpg);
+    height: 4em;
+    width: 100%;
+    background-position: 0 -130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.homepage{
+    margin-top: 1.5em;
+    width: 100vw;
+    padding: .25em;    
+    color: white;
+    background-color: #90B77D;
+    font-size: 2em;
+    border: none;
+}
+.backdrop_non_alcoholic_drinks{
+    background-image: url(img/non_alcoholic.jpg);
+    height: 4em;
+    width: 100%;
+    background-position: 0 -60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backdrop_alcoholic_drinks{
+    background-image: url(img/alcoholic_small.jpg);
+    height: 4em;
+    width: 100%;
+    background-position: 0 -80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
