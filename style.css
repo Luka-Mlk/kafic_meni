@@ -1,431 +1,436 @@
-*{
-    font-family: 'Bebas Neue', cursive;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Clip path */
-h1{
-    background-color: #483838;
-    color: white;
-    font-size: 3rem;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 10px 0 5px 0;
-    margin-bottom: 2.5rem;
+h1 {
+  background-color: #483838;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 0 5px 0;
+  margin-bottom: 0.5rem;
 }
-body{
-    background-color: #42855B;
+h2 {
+  margin-left: 1em;
+  margin-bottom: 1rem;
+  color: #90b77d;
 }
-.wrapper{
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(15rem,20rem));
-    gap: 1.5em;
-    justify-content: center;
+body {
+  background-color: #42855b;
 }
-.wrapper a{
-    text-decoration: none;
-    color: black;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+  gap: 1.5em;
+  justify-content: center;
 }
-.elements p{
-    font-size: 1.5em;
-    padding: .2em .2em 0 1rem;
+.wrapper a {
+  text-decoration: none;
+  color: black;
 }
-.elements{
-    background-color: #D2D79F;
-    /* width: 15em; */
-    position: relative;
-    box-shadow: #90B77D;
-    border-radius: 15px;
-    overflow: hidden;
-    margin: 0 1.5em;
+.elements p {
+  font-size: 1.5em;
+  padding: 0.2em 0.2em 0 1rem;
 }
-.backdrop_drinks{
-    background-image: url(img/drinks_small.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.elements {
+  background-color: #d2d79f;
+  /* width: 15em; */
+  position: relative;
+  box-shadow: #90b77d;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 1.5em;
 }
-.backdrop_food{
-    background-image: url(img/food_small.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -130px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_drinks {
+  background-image: url(img/drinks_small.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.homepage{
-    margin-top: 1.5em;
-    width: 100vw;
-    padding: .25em;    
-    color: white;
-    background-color: #90B77D;
-    font-size: 2em;
-    border: none;
+.backdrop_food {
+  background-image: url(img/food_small.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -130px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_non_alcoholic_drinks{
-    background-image: url(img/non_alcoholic.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -60px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.homepage {
+  margin-top: 1.5em;
+  width: 100vw;
+  padding: 0.25em;
+  color: white;
+  background-color: #90b77d;
+  font-size: 2em;
+  border: none;
 }
-.backdrop_alcoholic_drinks{
-    background-image: url(img/alcoholic_small.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -80px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_non_alcoholic_drinks {
+  background-image: url(img/non_alcoholic.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -60px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_7Up{
-    background-image: url(img/7up.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -100px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_alcoholic_drinks {
+  background-image: url(img/alcoholic_small.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -80px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_apple{
-    background-image: url(img/apple.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -140px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_7Up {
+  background-image: url(img/7up.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -100px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_coca_cola{
-    background-image: url(img/coca_cola.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -140px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_apple {
+  background-image: url(img/apple.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -140px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_macchiato{
-    background-image: url(img/macchiato.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_coca_cola {
+  background-image: url(img/coca_cola.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -140px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_nescafe{
-    background-image: url(img/nescafe.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -130px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_macchiato {
+  background-image: url(img/macchiato.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_orange{
-    background-image: url(img/orange.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -60px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_nescafe {
+  background-image: url(img/nescafe.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -130px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_pepsi{
-    background-image: url(img/pepsi.jpg);
-    height: 4em;
-    width: 100%;
-    background-position: 0 -140px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_orange {
+  background-image: url(img/orange.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -60px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.backdrop_pepsi {
+  background-image: url(img/pepsi.jpg);
+  height: 4em;
+  width: 100%;
+  background-position: 0 -140px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_beer{
-    background-image: url(img/beer.jpg);
-    height: 4em;
-    background-position: 0 -90px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.backdrop_wine{
-    background-image: url(img/wine.jpg);
-    height: 4em;
-    background-position: 0 -50px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_beer {
+  background-image: url(img/beer.jpg);
+  height: 4em;
+  background-position: 0 -90px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_spirits{
-    background-image: url(img/spirits.jpg);
-    height: 4em;
-    background-position: 0 -40px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_wine {
+  background-image: url(img/wine.jpg);
+  height: 4em;
+  background-position: 0 -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_skopsko{
-    background-image: url(img/skopsko.jpg);
-    height: 4em;
-    background-position: 0 -180px;
-    background-size: cover;
-    background-repeat: no-repeat;    
+.backdrop_spirits {
+  background-image: url(img/spirits.jpg);
+  height: 4em;
+  background-position: 0 -40px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_heineken{
-    background-image: url(img/heineken.jpg);
-    height: 4em;
-    background-position: 0 -180px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_skopsko {
+  background-image: url(img/skopsko.jpg);
+  height: 4em;
+  background-position: 0 -180px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_corona{
-    background-image: url(img/corona.jpg);
-    height: 4em;
-    background-position: 0 -200px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_heineken {
+  background-image: url(img/heineken.jpg);
+  height: 4em;
+  background-position: 0 -180px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_guinness{
-    background-image: url(img/guinness.jpg);
-    height: 4em;
-    background-position: 0 55%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_corona {
+  background-image: url(img/corona.jpg);
+  height: 4em;
+  background-position: 0 -200px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_miller{
-    background-image: url(img/miller.jpg);
-    height: 4em;
-    background-position: 0 -40px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_guinness {
+  background-image: url(img/guinness.jpg);
+  height: 4em;
+  background-position: 0 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_tsingtao{
-    background-image: url(img/tsingtao.jpg);
-    height: 4em;
-    background-position: 0 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_miller {
+  background-image: url(img/miller.jpg);
+  height: 4em;
+  background-position: 0 -40px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_budweiser{
-    background-image: url(img/budweiser.jpg);
-    height: 4em;
-    background-position: 0 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.backdrop_tsingtao {
+  background-image: url(img/tsingtao.jpg);
+  height: 4em;
+  background-position: 0 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_cabernet{
-    background-image: url(img/cabernet.jpg);
-    height: 4em;
-    background-position: 0 20%;
-    background-size: cover;
-    background-repeat: no-repeat;    
+.backdrop_budweiser {
+  background-image: url(img/budweiser.jpg);
+  height: 4em;
+  background-position: 0 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_merlot{
-    background-image: url(img/merlot.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat;   
+.backdrop_cabernet {
+  background-image: url(img/cabernet.jpg);
+  height: 4em;
+  background-position: 0 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_airen{
-    background-image: url(img/airen.jpg);
-    height: 4em;
-    background-position: 0 50%;
-    background-size: cover;
-    background-repeat: no-repeat;   
+.backdrop_merlot {
+  background-image: url(img/merlot.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_chardonnay{
-    background-image: url(img/chardonnay.jpg);
-    height: 4em;
-    background-position: 0 70%;
-    background-size: cover;
-    background-repeat: no-repeat;   
+.backdrop_airen {
+  background-image: url(img/airen.jpg);
+  height: 4em;
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_syrah{
-    background-image: url(img/syrah.jpeg);
-    height: 4em;
-    background-position: 0 50%;
-    background-size: cover;
-    background-repeat: no-repeat;   
+.backdrop_chardonnay {
+  background-image: url(img/chardonnay.jpg);
+  height: 4em;
+  background-position: 0 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_rose{
-    background-image: url(img/rose.jpg);
-    height: 4em;
-    background-position: 0 30%;
-    background-size: cover;
-    background-repeat: no-repeat;   
+.backdrop_syrah {
+  background-image: url(img/syrah.jpeg);
+  height: 4em;
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_pinot{
-    background-image: url(img/pinot.jpg);
-    height: 4em;
-    background-position: 0 25%;
-    background-size: cover;
-    background-repeat: no-repeat;   
+.backdrop_rose {
+  background-image: url(img/rose.jpg);
+  height: 4em;
+  background-position: 0 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_jager{
-    background-image: url(img/jager.jpg);
-    height: 4em;
-    background-position: 0 50%;
-    background-size: cover;
-    background-repeat: no-repeat;  
+.backdrop_pinot {
+  background-image: url(img/pinot.jpg);
+  height: 4em;
+  background-position: 0 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_gordons{
-    background-image: url(img/gordons.jpg);
-    height: 4em;
-    background-position: 0 25%;
-    background-size: cover;
-    background-repeat: no-repeat;  
+.backdrop_jager {
+  background-image: url(img/jager.jpg);
+  height: 4em;
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_morosha{
-    background-image: url(img/morosha.jpg);
-    height: 4em;
-    background-position: 0 70%;
-    background-size: cover;
-    background-repeat: no-repeat;  
+.backdrop_gordons {
+  background-image: url(img/gordons.jpg);
+  height: 4em;
+  background-position: 0 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_absolut{
-    background-image: url(img/absolut.jpg);
-    height: 4em;
-    background-position: 0 55%;
-    background-size: cover;
-    background-repeat: no-repeat;  
+.backdrop_morosha {
+  background-image: url(img/morosha.jpg);
+  height: 4em;
+  background-position: 0 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_baileys{
-    background-image: url(img/baileys.jpg);
-    height: 4em;
-    background-position: 0 55%;
-    background-size: cover;
-    background-repeat: no-repeat;  
+.backdrop_absolut {
+  background-image: url(img/absolut.jpg);
+  height: 4em;
+  background-position: 0 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_jameson{
-    background-image: url(img/jameson.jpg);
-    height: 4em;
-    background-position: 0 65%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_baileys {
+  background-image: url(img/baileys.jpg);
+  height: 4em;
+  background-position: 0 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_jack{
-    background-image: url(img/jack.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_jameson {
+  background-image: url(img/jameson.jpg);
+  height: 4em;
+  background-position: 0 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_johonnie{
-    background-image: url(img/johnnie.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_jack {
+  background-image: url(img/jack.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_starters{
-    background-image: url(img/starter.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_johonnie {
+  background-image: url(img/johnnie.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_main_courses{
-    background-image: url(img/main_course.jpg);
-    height: 4em;
-    background-position: 0 55%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_starters {
+  background-image: url(img/starter.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_dessers{
-    background-image: url(img/dessert.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_main_courses {
+  background-image: url(img/main_course.jpg);
+  height: 4em;
+  background-position: 0 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_salmon{
-    background-image: url(img/salmon.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_dessers {
+  background-image: url(img/dessert.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_feta{
-    background-image: url(img/feta.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_salmon {
+  background-image: url(img/salmon.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_gyoza{
-    background-image: url(img/gyoza.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_feta {
+  background-image: url(img/feta.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_spring{
-    background-image: url(img/spring.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_gyoza {
+  background-image: url(img/gyoza.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_halloumi{
-    background-image: url(img/halloumi.jpg);
-    height: 4em;
-    background-position: 0 40%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_spring {
+  background-image: url(img/spring.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_burgir{
-    background-image: url(img/burger.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_halloumi {
+  background-image: url(img/halloumi.jpg);
+  height: 4em;
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_chicken{
-    background-image: url(img/chicken.jpg);
-    height: 4em;
-    background-position: 0 70%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_burgir {
+  background-image: url(img/burger.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_cherry{
-    background-image: url(img/cherry_chicken.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_chicken {
+  background-image: url(img/chicken.jpg);
+  height: 4em;
+  background-position: 0 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_sandwich{
-    background-image: url(img/sandwich.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_cherry {
+  background-image: url(img/cherry_chicken.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_pork{
-    background-image: url(img/pork.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_sandwich {
+  background-image: url(img/sandwich.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_cheese{
-    background-image: url(img/cheesecake.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_pork {
+  background-image: url(img/pork.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_pancakes{
-    background-image: url(img/pork.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_cheese {
+  background-image: url(img/cheesecake.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.backdrop_waffle{
-    background-image: url(img/waffle.jpg);
-    height: 4em;
-    background-position: 0 60%;
-    background-size: cover;
-    background-repeat: no-repeat; 
+.backdrop_pancakes {
+  background-image: url(img/pork.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backdrop_waffle {
+  background-image: url(img/waffle.jpg);
+  height: 4em;
+  background-position: 0 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
