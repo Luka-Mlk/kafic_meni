@@ -434,3 +434,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.nocol {
+  color: #90b77d;
+  text-decoration: none;
+}
